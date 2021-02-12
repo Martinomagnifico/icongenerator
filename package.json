@@ -1,0 +1,14 @@
+{
+	"name": "icongenerator",
+	"version": "1.0.0",
+	"license": "MIT",
+	"main": "index.js",
+	"dependencies": {
+		"glob": "^7.1.6",
+		"he": "^1.2.0",
+		"normalize-path": "^3.0.0",
+		"randomstring": "^1.1.5",
+		"string.fromcodepoint": "^0.2.1",
+		"webfonts-generator": "^0.4.0"
+	}
+}
