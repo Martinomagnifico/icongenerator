@@ -63,7 +63,9 @@ const fontAndStyle = function(opts) {
         }
 
         webfontsGenerator(webfontOptions, function () {
-            console.log(`Exported icon font ${opts.fontname} to ${fontoutdir}`);
+		if (opts.debug) {
+			console.log(`Exported icon font ${opts.fontname} to ${fontoutdir}`);
+		}
         });	
     }
 
