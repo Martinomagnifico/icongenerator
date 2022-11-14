@@ -1,5 +1,7 @@
 # Icon generator
 
+## THIS PACKAGE IS NO LONGER ACTIVELY MAINTAINED ##
+
 This package will generate an icon font from a directory of SVG files. There are some requirements for the SVG files before they can be processed:
  
 Each filename should conform to:
